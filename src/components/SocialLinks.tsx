@@ -39,9 +39,9 @@ export default function SocialLinks() {
   ];
 
   return (
-    <section className="w-full bg-zinc-50 dark:bg-zinc-900 py-16">
+    <section className="w-full bg-zinc-900 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold text-black dark:text-white mb-8 text-center">
+        <h2 className="text-2xl font-bold text-white mb-8 text-center">
           Connect With Me
         </h2>
         <div className="flex justify-center gap-6">
@@ -53,9 +53,9 @@ export default function SocialLinks() {
                 href={link.url}
                 target={isExternalLink ? "_blank" : undefined}
                 rel={isExternalLink ? "noopener noreferrer" : undefined}
-                className="flex flex-col items-center gap-2 text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white transition-colors group"
+                className="flex flex-col items-center gap-2 text-zinc-400 hover:text-purple-400 transition-colors group"
               >
-              <div className="p-3 rounded-full bg-white dark:bg-black border border-zinc-200 dark:border-zinc-800 group-hover:border-black dark:group-hover:border-white transition-colors">
+              <div className="p-3 rounded-full bg-black border border-zinc-800 group-hover:border-purple-500 transition-colors">
                 {link.icon}
               </div>
               <span className="text-sm font-medium">{link.name}</span>

@@ -57,27 +57,27 @@ export default function Services() {
   ];
 
   return (
-    <section id="about" className="w-full bg-zinc-50 dark:bg-zinc-900 py-20">
+    <section id="about" className="w-full bg-zinc-900 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-black dark:text-white mb-4">
+        <h2 className="text-3xl font-bold text-white mb-4">
           Services & Expertise
         </h2>
-        <p className="text-zinc-600 dark:text-zinc-400 mb-12 max-w-2xl">
+        <p className="text-zinc-400 mb-12 max-w-2xl">
           Comprehensive technical leadership and engineering services to help your organization succeed.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div
               key={service.title}
-              className="bg-white dark:bg-black rounded-lg p-6 border border-zinc-200 dark:border-zinc-800 hover:border-black dark:hover:border-white transition-colors"
+              className="bg-black rounded-lg p-6 border border-zinc-800 hover:border-indigo-500 transition-colors"
             >
-              <div className="text-black dark:text-white mb-4">
+              <div className="text-indigo-400 mb-4">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-semibold text-black dark:text-white mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 {service.title}
               </h3>
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-400">
                 {service.description}
               </p>
             </div>
