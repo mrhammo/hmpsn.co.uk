@@ -30,9 +30,9 @@ export default function WorkProjects() {
           A selection of projects that showcase my expertise in building scalable, innovative solutions.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
-              key={index}
+              key={project.title}
               className="bg-zinc-50 dark:bg-zinc-900 rounded-lg p-6 border border-zinc-200 dark:border-zinc-800 hover:border-black dark:hover:border-white transition-colors"
             >
               <div className="flex justify-between items-start mb-3">

@@ -66,9 +66,9 @@ export default function Services() {
           Comprehensive technical leadership and engineering services to help your organization succeed.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
+          {services.map((service) => (
             <div
-              key={index}
+              key={service.title}
               className="bg-white dark:bg-black rounded-lg p-6 border border-zinc-200 dark:border-zinc-800 hover:border-black dark:hover:border-white transition-colors"
             >
               <div className="text-black dark:text-white mb-4">

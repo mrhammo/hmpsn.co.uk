@@ -45,20 +45,23 @@ export default function SocialLinks() {
           Connect With Me
         </h2>
         <div className="flex justify-center gap-6">
-          {links.map((link) => (
-            <a
-              key={link.name}
-              href={link.url}
-              target={link.url.startsWith("http") ? "_blank" : undefined}
-              rel={link.url.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="flex flex-col items-center gap-2 text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white transition-colors group"
-            >
+          {links.map((link) => {
+            const isExternalLink = link.url.startsWith("http");
+            return (
+              <a
+                key={link.name}
+                href={link.url}
+                target={isExternalLink ? "_blank" : undefined}
+                rel={isExternalLink ? "noopener noreferrer" : undefined}
+                className="flex flex-col items-center gap-2 text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white transition-colors group"
+              >
               <div className="p-3 rounded-full bg-white dark:bg-black border border-zinc-200 dark:border-zinc-800 group-hover:border-black dark:group-hover:border-white transition-colors">
                 {link.icon}
               </div>
               <span className="text-sm font-medium">{link.name}</span>
             </a>
-          ))}
+          );
+          })}
         </div>
       </div>
     </section>
