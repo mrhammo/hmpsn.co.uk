@@ -8,12 +8,14 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-black">
-      <Navigation />
-      <Hero />
-      <SocialLinks />
-      <WorkProjects />
-      <Services />
-      <Footer />
+      <div className="max-w-4xl mx-auto">
+        <Navigation />
+        <Hero />
+        <SocialLinks />
+        <WorkProjects />
+        <Services />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -1,64 +1,58 @@
 export default function WorkProjects() {
   const projects = [
     {
-      title: "Enterprise AI Platform",
-      description: "Led the architecture and development of a scalable AI platform processing millions of requests daily, implementing LLM integrations and model orchestration.",
+      title: "enterprise_ai_platform",
+      description: "Scalable AI platform processing millions of requests daily. LLM integrations and model orchestration.",
       technologies: ["Python", "TypeScript", "AWS", "Kubernetes"],
       year: "2024",
     },
     {
-      title: "Distributed Microservices Architecture",
-      description: "Designed and implemented a resilient microservices architecture serving 10M+ users, with focus on high availability and fault tolerance.",
+      title: "microservices_arch",
+      description: "Resilient microservices architecture serving 10M+ users. High availability and fault tolerance.",
       technologies: ["Go", "React", "Docker", "PostgreSQL"],
       year: "2023",
     },
     {
-      title: "Real-time Analytics Engine",
-      description: "Built a real-time data processing pipeline handling terabytes of data, enabling instant insights and decision-making for business stakeholders.",
+      title: "analytics_engine",
+      description: "Real-time data processing pipeline handling terabytes of data. Instant insights for stakeholders.",
       technologies: ["Kafka", "Spark", "Python", "Redis"],
       year: "2022",
     },
   ];
 
   return (
-    <section id="work" className="w-full bg-black py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-white mb-4">
-          Notable Work
-        </h2>
-        <p className="text-zinc-400 mb-12 max-w-2xl">
-          A selection of projects that showcase my expertise in building scalable, innovative solutions.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
-            <div
-              key={project.title}
-              className="bg-zinc-900 rounded-lg p-6 border border-zinc-800 hover:border-purple-500 transition-colors"
-            >
-              <div className="flex justify-between items-start mb-3">
-                <h3 className="text-xl font-semibold text-white">
-                  {project.title}
-                </h3>
-                <span className="text-sm text-zinc-500">
-                  {project.year}
-                </span>
-              </div>
-              <p className="text-zinc-400 mb-4">
-                {project.description}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {project.technologies.map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-3 py-1 bg-black border border-zinc-800 rounded-full text-xs font-medium text-zinc-300"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
+    <section id="work" className="w-full bg-black py-10 px-6">
+      <div className="mb-6">
+        <div className="text-green-400 text-sm mb-4 font-mono">
+          <span className="opacity-60">[system@hmpsn ~]$</span> cat ./projects/*.log
         </div>
+      </div>
+      <div className="space-y-4">
+        {projects.map((project) => (
+          <div
+            key={project.title}
+            className="border border-green-500/30 bg-green-950/10 p-5 hover:border-green-500 transition-colors font-mono"
+          >
+            <div className="flex justify-between items-start mb-3 text-sm">
+              <h3 className="text-green-400 font-bold">
+                [{project.year}] {project.title}
+              </h3>
+            </div>
+            <p className="text-green-300/80 mb-4 text-sm leading-relaxed">
+              &gt; {project.description}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {project.technologies.map((tech) => (
+                <span
+                  key={tech}
+                  className="px-2 py-1 bg-green-500/10 border border-green-500/30 text-green-400 text-xs"
+                >
+                  #{tech}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

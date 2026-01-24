@@ -1,23 +1,25 @@
 export default function Navigation() {
   return (
-    <nav className="w-full bg-black border-b border-zinc-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <nav className="w-full border-b border-green-500/30 bg-black/50 backdrop-blur">
+      <div className="px-6 py-4">
+        <div className="flex justify-between items-center">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-white">HMPSN</h1>
+            <h1 className="text-xl font-bold text-green-400" style={{ fontFamily: "'Roboto Mono', monospace" }}>
+              ~/HMPSN<span className="terminal-cursor">_</span>
+            </h1>
           </div>
-          <div className="flex space-x-8">
-            <a href="#work" className="text-zinc-400 hover:text-purple-400 transition-colors">
-              Work
+          <div className="flex space-x-6 text-sm">
+            <a href="#work" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
+              work
             </a>
-            <a href="#about" className="text-zinc-400 hover:text-purple-400 transition-colors">
-              About
+            <a href="#about" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
+              about
             </a>
-            <a href="#blog" className="text-zinc-400 hover:text-purple-400 transition-colors">
-              Blog
+            <a href="#blog" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
+              blog
             </a>
-            <a href="#contact" className="text-zinc-400 hover:text-purple-400 transition-colors">
-              Contact
+            <a href="#contact" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
+              contact
             </a>
           </div>
         </div>
