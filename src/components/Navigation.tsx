@@ -4,7 +4,7 @@ export default function Navigation() {
       <div className="px-6 py-4">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-green-400" style={{ fontFamily: "'Roboto Mono', monospace" }}>
+            <h1 className="text-xl font-bold text-green-400">
               ~/HMPSN<span className="terminal-cursor">_</span>
             </h1>
           </div>
