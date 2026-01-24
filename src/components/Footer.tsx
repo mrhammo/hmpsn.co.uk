@@ -44,12 +44,12 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; github
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; linkedin
                   </a>
                 </li>
