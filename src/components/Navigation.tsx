@@ -9,16 +9,16 @@ export default function Navigation() {
             </h1>
           </div>
           <div className="flex space-x-6 text-sm">
-            <a href="#work" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
+            <a href="#" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
               work
             </a>
-            <a href="#about" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
+            <a href="#" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
               about
             </a>
-            <a href="#blog" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
+            <a href="#" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
               blog
             </a>
-            <a href="#contact" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
+            <a href="#" className="text-green-400 hover:text-green-300 transition-colors terminal-prompt">
               contact
             </a>
           </div>

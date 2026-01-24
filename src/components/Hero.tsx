@@ -19,13 +19,13 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 text-sm">
             <a 
-              href="#contact" 
+              href="#" 
               className="border border-green-500 bg-green-500/10 text-green-400 px-5 py-2 hover:bg-green-500/20 transition-all font-mono"
             >
               [ENTER] Get in Touch
             </a>
             <a 
-              href="#work" 
+              href="#" 
               className="border border-green-500/50 text-green-400 px-5 py-2 hover:border-green-500 hover:bg-green-500/10 transition-all font-mono"
             >
               [TAB] View My Work →

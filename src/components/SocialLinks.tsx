@@ -1,9 +1,9 @@
 export default function SocialLinks() {
   const links = [
-    { name: "github", url: "https://github.com/mrhammo", cmd: "open" },
-    { name: "linkedin", url: "https://linkedin.com/in/michaelhampson", cmd: "open" },
-    { name: "blog", url: "/blog", cmd: "cd" },
-    { name: "email", url: "mailto:michael@hmpsn.co.uk", cmd: "mail" },
+    { name: "github", url: "#", cmd: "open" },
+    { name: "linkedin", url: "#", cmd: "open" },
+    { name: "blog", url: "#", cmd: "cd" },
+    { name: "email", url: "#", cmd: "mail" },
   ];
 
   return (
