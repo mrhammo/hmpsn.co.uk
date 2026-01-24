@@ -39,17 +39,17 @@ export default function Footer() {
               <div className="text-green-400 font-bold mb-3 uppercase text-xs">Contact</div>
               <ul className="space-y-1 text-xs">
                 <li>
-                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="mailto:thomas@hmpsn.co.uk" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; thomas@hmpsn.co.uk
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="https://www.github.com/mrhammo" target="_blank" rel="noopener noreferrer" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; github
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="https://www.linkedin.com/in/thomas-hampson" target="_blank" rel="noopener noreferrer" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; linkedin
                   </a>
                 </li>
