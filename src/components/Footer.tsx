@@ -19,17 +19,17 @@ export default function Footer() {
               <div className="text-green-400 font-bold mb-3 uppercase text-xs">Navigation</div>
               <ul className="space-y-1 text-xs">
                 <li>
-                  <a href="#work" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; work
                   </a>
                 </li>
                 <li>
-                  <a href="#about" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; about
                   </a>
                 </li>
                 <li>
-                  <a href="#blog" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; blog
                   </a>
                 </li>
@@ -39,17 +39,17 @@ export default function Footer() {
               <div className="text-green-400 font-bold mb-3 uppercase text-xs">Contact</div>
               <ul className="space-y-1 text-xs">
                 <li>
-                  <a href="mailto:michael@hmpsn.co.uk" className="text-green-300/80 hover:text-green-300 transition-colors">
-                    &gt; michael@hmpsn.co.uk
+                  <a href="#" className="text-green-300/80 hover:text-green-300 transition-colors">
+                    &gt; thomas@hmpsn.co.uk
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/mrhammo" target="_blank" rel="noopener noreferrer" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; github
                   </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com/in/michaelhampson" target="_blank" rel="noopener noreferrer" className="text-green-300/80 hover:text-green-300 transition-colors">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="text-green-300/80 hover:text-green-300 transition-colors">
                     &gt; linkedin
                   </a>
                 </li>
